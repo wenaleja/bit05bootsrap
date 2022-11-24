@@ -47,3 +47,7 @@ img{
     display:block;
 margin:auto;
 }
+nav {
+    grid-area: nav;
+    height: 48px;
+}
