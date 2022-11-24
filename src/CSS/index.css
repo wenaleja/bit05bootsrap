@@ -20,12 +20,11 @@ body{
 }
 
 .links a{
-    color: blueviolet;
-    text-decoration: overline;
+    color: white;
 }
 
 .links a:hover {
-    color: red;
+    color: white; 
 }
 
 
@@ -51,3 +50,27 @@ nav {
     grid-area: nav;
     height: 48px;
 }
+.container-fluid{
+    background-color: brown;
+}
+div.noticia {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    padding: 15px;
+  }
+  
+  div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
