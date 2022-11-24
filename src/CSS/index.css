@@ -1,0 +1,53 @@
+body{
+    width: 1024;
+    background-color: beige;
+}
+.menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-check{
+    display: none;
+}
+.menu-check:checked + .links {
+    transform: translateY(0);
+}
+
+.links {
+    transform: translateX(-200%);
+    transition: 2s;
+}
+
+.links a{
+    color: blueviolet;
+    text-decoration: overline;
+}
+
+.links a:hover {
+    color: red;
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu-btn{
+        display: none;
+    }
+    .links {
+        transform: translateY(0);
+    }
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+img{
+    display:block;
+margin:auto;
+}
+nav {
+    grid-area: nav;
+    height: 48px;
+}
