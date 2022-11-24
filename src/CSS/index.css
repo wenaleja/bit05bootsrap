@@ -41,6 +41,7 @@ h1{
 }
 nav{
     text-align: center;
+    margin-top: 180px;
 }
 img{
     display:block;
@@ -73,4 +74,18 @@ div.noticia {
   
   div.reset {
     clear: both;
+  }
+  h2{
+    text-align: center;
+  }
+  .negron{
+   margin-left: 70px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    float:left ;
+  }
+  .logo1{
+    text-align: center;
+    margin-block: 3rem;
+    
   }
