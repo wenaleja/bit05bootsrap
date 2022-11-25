@@ -1,0 +1,160 @@
+/*css menu*/
+
+.menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-check{
+    display: none;
+}
+.menu-check:checked + .links {
+    transform: translateY(0);
+}
+
+.links {
+    transform: translateX(-200%);
+    transition: 2s;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover {
+    color: white; 
+}
+
+nav{
+    text-align: center;
+    margin-top: 180px;
+}
+
+nav {
+    grid-area: nav;
+    height: 48px;
+}
+
+.container-fluid{
+    background-color: brown;
+}
+
+h2{
+    text-align: center;
+  }
+
+.negron{
+   margin-left: 70px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    float:left ;
+  }
+  .logo1{
+    text-align: center;
+    margin-block: 3rem;
+    
+  }
+  .redes1{
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  /*css main*/
+
+ .container .entrega {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 300px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .container .botones {
+    margin-top: 520px;
+    margin-left: -6rem;
+    text-align: justify;
+  }
+
+  .video {
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+
+/*css footer*/
+
+.container .row {
+    margin-top: 60px;
+}
+
+footer #footer {
+    background-image: url(../imagen/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-block-end: -305px;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.logo {
+    width: 140px;
+    margin-left: 5px;
+}
+
+  @media screen and (min-width: 768px) {
+    .menu-btn{
+        display: none;
+    }
+    .links {
+        transform: translateY(0);
+    }
+    .container .entrega {
+        width:430px;
+        margin-top: -45px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    }
+    .container .botones {
+        margin-top: -595px;
+        margin-left: 30rem;
+        text-align: justify;
+      }
+
+      .logo {
+        margin-left: 10rem;
+        margin-right: 300px;
+    }
+    .botton {
+        margin-left: 5rem;
+    }
+
+    .video {
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container .entrega {
+        width:580px;
+        margin-top: 10px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .container .botones {
+        margin-top: -800px;
+        margin-left: 50rem;
+        text-align: justify;
+      }
+
+      .video {
+        margin-left: 200rem;
+        margin-top: 35rem;
+        width: 500px;
+    }
+    }
