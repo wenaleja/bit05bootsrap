@@ -1,0 +1,25 @@
+/* font-family: 'Baskervville', serif;
+font-family: 'Thasadith', sans-serif; 
+
+#AB8D4Fsecundo color
+*/
+
+.container .row {
+    margin-top: 60px;
+}
+
+footer #footer {
+    background-image: url(../imagen/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 140px;
+    margin-left: -300px;
+    margin-right: 40px;
+}
