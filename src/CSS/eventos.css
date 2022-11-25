@@ -1,0 +1,104 @@
+.menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-check{
+    display: none;
+}
+.menu-check:checked + .links {
+    transform: translateY(0);
+}
+
+.links {
+    transform: translateX(-200%);
+    transition: 2s;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover {
+    color: white; 
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu-btn{
+        display: none;
+    }
+    .links {
+        transform: translateY(0);
+    }
+}nav{
+    text-align: center;
+    margin-top: 180px;
+}
+
+nav {
+    grid-area: nav;
+    height: 48px;
+}
+.negron{
+    margin-left: 70px;
+     margin-top: 15px;
+     margin-block-end: 15px;
+     float:left ;
+   }
+   .logo1{
+     text-align: center;
+     margin-block: 3rem;
+     
+   }
+   .redes1{
+     float: right;
+     margin-right: 20px;
+   }
+   .container-fluid{
+     background-color: brown;}
+h2{
+    text-align: center;
+    padding: 1rem;
+    color: darkkhaki;
+} 
+
+.boda1{
+    margin-left: 70px;
+}
+.boda2{
+    float: right;
+    margin-right: 70px ;
+}
+h1{
+    text-align: center;
+}
+.evento1{
+    margin-left: 70px;
+}
+.evento2{
+    float: right;
+    margin-right: 70px ;
+    margin-block-end: 2rem;
+}
+footer #footer {
+    background-image: url(../imagen/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+  
+.logo {
+  width: 140px;
+  margin-left: -300px;
+  margin-right: 40px;
+}
+
+.container-fluid2{
+  display: flex;
+  margin-top: -120px;
+
+}
