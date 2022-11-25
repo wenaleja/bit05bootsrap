@@ -23,3 +23,15 @@ footer #footer {
     margin-left: -300px;
     margin-right: 40px;
 }
+
+.logo-anuncio {
+    width: 400px;
+    margin-left: 430px;
+    opacity: 25%;
+}
+
+.anuncio {
+    margin-top: 30px;
+    margin-left: 610px;
+    color: gray;
+}
