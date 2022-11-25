@@ -1,7 +1,3 @@
-body{
-    width: 1024;
-    background-color: beige;
-}
 .menu-btn {
     position: absolute;
     top: 1rem;
@@ -88,4 +84,8 @@ div.noticia {
     text-align: center;
     margin-block: 3rem;
     
+  }
+  .redes1{
+    float: right;
+    margin-right: 20px;
   }
