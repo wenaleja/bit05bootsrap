@@ -16,10 +16,152 @@ footer #footer {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-block-end: -305px;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
 }
 
 .logo {
     width: 140px;
-    margin-left: -300px;
-    margin-right: 40px;
+    margin-left: 5px;
 }
+
+.logo-anuncio {
+    width: 300px;
+    margin-left: 20px;
+    opacity: 25%;
+}
+
+.anuncio {
+    margin-top: 30px;
+    margin-left: 180px;
+    color: gray;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-check{
+    display: none;
+}
+.menu-check:checked + .links {
+    transform: translateY(0);
+}
+
+.links {
+    transform: translateX(-200%);
+    transition: 2s;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover {
+    color: white; 
+}
+
+.p1 {
+    margin-top: 25px;
+}
+
+.p1, .p2, .p3 {
+    font-family: 'Baskervville', serif;
+    font-size: 16px;
+}
+
+.title1, .title2  {
+    font-family: 'Thasadith', sans-serif; 
+    font-size: 20px;
+    color: bisque;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-btn{
+        display: none;
+    }
+    .links {
+        transform: translateY(0);
+    }
+
+    .logo-anuncio {
+        width: 400px;
+        margin-left: 230px;
+        opacity: 25%;
+    }
+    
+    .anuncio {
+        margin-top: 30px;
+        margin-left: 370px;
+        color: gray;
+    }
+
+    .logo {
+        margin-left: 0px;
+        margin-right: 300px;
+    }
+    .botton {
+        margin-left: -400px;
+    }
+} 
+
+nav{
+    text-align: center;
+    margin-top: 180px;
+}
+
+nav {
+    grid-area: nav;
+    height: 48px;
+}
+
+.container-fluid{
+    background-color: brown;
+}
+
+h2{
+    text-align: center;
+  }
+
+.negron{
+   margin-left: 70px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    float:left ;
+  }
+  .logo1{
+    text-align: center;
+    margin-block: 3rem;
+    
+  }
+  .redes1{
+    float: right;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .anuncio {
+        margin-top: 30px;
+        margin-left: 570px;
+        color: gray;
+    }
+    .logo-anuncio {
+        width: 400px;
+        margin-left: 430px;
+        opacity: 25%;
+    }
+    .logo {
+        margin-left: -20px;
+        margin-top: 5px;
+    }
+
+    .botton {
+        margin-left: 100px;
+    }
+  }
