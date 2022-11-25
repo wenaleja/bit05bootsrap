@@ -1,0 +1,121 @@
+/*css menu*/
+
+.menu-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.menu-check{
+    display: none;
+}
+.menu-check:checked + .links {
+    transform: translateY(0);
+}
+
+.links {
+    transform: translateX(-200%);
+    transition: 2s;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover {
+    color: white; 
+}
+
+nav{
+    text-align: center;
+    margin-top: 180px;
+}
+
+nav {
+    grid-area: nav;
+    height: 48px;
+}
+
+.container-fluid{
+    background-color: brown;
+}
+
+h2{
+    text-align: center;
+  }
+
+.negron{
+   margin-left: 70px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    float:left ;
+  }
+  .logo1{
+    text-align: center;
+    margin-block: 3rem;
+    
+  }
+  .redes1{
+    float: right;
+    margin-right: 20px;
+  }
+
+/* formulario*/
+
+.title {
+    color: white;
+}
+.contenedor1 {
+    background-color: #f8cbd9;
+    opacity: 70%;
+}
+
+.form1 {
+    background-color: #FCE3EB;
+    opacity: none;
+    color: #AB8D4F;
+    font-family: 'Thasadith', sans-serif;
+}
+
+/*css footer*/
+
+.container .row {
+    margin-top: 60px;
+}
+
+footer #footer {
+    background-image: url(../imagen/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-block-end: -305px;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.logo {
+    width: 140px;
+    margin-left: 5px;
+}
+
+  @media screen and (min-width: 768px) {
+    .menu-btn{
+        display: none;
+    }
+    .links {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .title {
+        margin-left: 16rem;
+    }
+}
