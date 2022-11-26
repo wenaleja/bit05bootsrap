@@ -65,21 +65,25 @@ h2{
 
 .boda1{
     margin-left: 70px;
+    
 }
 .boda2{
     float: right;
     margin-right: 70px ;
+    
 }
 h1{
     text-align: center;
 }
 .evento1{
     margin-left: 70px;
+    
 }
 .evento2{
     float: right;
     margin-right: 70px ;
     margin-block-end: 2rem;
+   
 }
 footer #footer {
     background-image: url(../imagen/footer.png);
