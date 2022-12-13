@@ -31,9 +31,11 @@
     .links {
         transform: translateY(0);
     }
-}nav{
+}
+nav{
     text-align: center;
     margin-top: 180px;
+    font-family: 'Thasadith', sans-serif;
 }
 
 nav {
@@ -46,11 +48,14 @@ nav {
      margin-block-end: 15px;
      float:left ;
    }
-   .logo1{
+.logo1{
      text-align: center;
      margin-block: 3rem;
+     font-family: 'Thasadith', sans-serif;
+     color: #AB8D4F;
      
-   }
+    
+    }
    .redes1{
      float: right;
      margin-right: 20px;
@@ -61,7 +66,8 @@ h2{
     text-align: center;
     padding: 1rem;
     color: darkkhaki;
-} 
+    font-family: 'Baskervville', serif;
+    } 
 
 .boda1{
     margin-left: 70px;
@@ -74,6 +80,9 @@ h2{
 }
 h1{
     text-align: center;
+    font-family: 'Thasadith', sans-serif;
+    color: brown;
+    
 }
 .evento1{
     margin-left: 70px;
@@ -93,26 +102,127 @@ footer #footer {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-block-end: -305px;
+    font-family: 'Baskervville', serif;
 }
   
 .logo {
   width: 140px;
-  margin-left: -300px;
-  margin-right: 40px;
+  margin-left: 5px;
 }
 
 .container-fluid2{
   display: flex;
-  margin-top: -120px;
+  margin-top: -100px;
+  justify-content: center;
 
 }
 
 .text {
     font-size: 22px;
     margin-top: 15px;
+    font-family: 'Baskervville', serif;
 }
 
 .text1 {
     font-size: 17px;
     margin-top: 0px;
+    font-family: 'Baskervville', serif;
 }
+@media screen and (max-width: 768px) {
+    .boda1{
+       width: 50%; 
+    }
+    .boda2{
+        width: 50%;
+        margin-top: 2rem;
+        margin-right: 5.4rem;
+    }
+    .evento1{
+        width: 50%;
+    }
+    .evento2{
+        width: 50%;
+        margin-top: 2rem ;
+        margin-right: 5.4rem;
+    }
+    
+    .evento20{
+        margin-top: 10rem;
+    }
+        .menu-btn{
+            display: none;
+        }
+        .links {
+            transform: translateY(0);
+        }
+    
+        .logo {
+            margin-left: 0px;
+            margin-right: 300px;
+        }
+        .botton {
+            margin-left: -400px;
+        }
+    } 
+    
+    nav{
+        text-align: center;
+        margin-top: 180px;
+    }
+    
+    nav {
+        grid-area: nav;
+        height: 48px;
+    }
+    
+    .container-fluid{
+        background-color: brown;
+    }
+    
+    h2{
+        text-align: center;
+      }
+    
+    .negron{
+       margin-left: 70px;
+        margin-top: 15px;
+        margin-block-end: 15px;
+        float:left ;
+      }
+      .logo1{
+        text-align: center;
+        margin-block: 3rem;
+        
+      }
+      .redes1{
+        float: right;
+        margin-right: 20px;
+      }
+      @media screen and (max-width: 768px) {
+        footer #footer {
+            background-image: url(../imagen/footer.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10rem;
+            margin-block-end: -305px;
+            font-family: 'Baskervville', serif;
+        }
+          
+        .logo {
+          width: 140px;
+          margin-left: 15rem;
+        }
+        
+        .container-fluid2{
+          display: flex;
+          margin-top: -100px;
+          justify-content: center;
+          margin-left: 10rem;
+        
+        }
+      }
+      
