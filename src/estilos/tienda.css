@@ -52,7 +52,8 @@ h2{
   .logo1{
     text-align: center;
     margin-block: 3rem;
-    
+    font-family: 'Thasadith', sans-serif;
+    color: #AB8D4F;
   }
   .redes1{
     float: right;
@@ -80,6 +81,10 @@ h2{
     margin-top: 4rem;
   }
 
+  .container .row {
+    font-family: 'Thasadith', sans-serif;
+  }
+
 /*css footer*/
 
 .container .row {
@@ -95,6 +100,7 @@ footer #footer {
     align-items: center;
     margin-top: 30px;
     margin-block-end: -305px;
+    font-family: 'Baskervville', serif;
 }
 
 .container-fluid2 {

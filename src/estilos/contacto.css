@@ -4,6 +4,7 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+    font-family: 'Thasadith', sans-serif;
 }
 .menu-check{
     display: none;
@@ -28,6 +29,7 @@
 nav{
     text-align: center;
     margin-top: 180px;
+    font-family: 'Thasadith', sans-serif;
 }
 
 nav {
@@ -35,8 +37,28 @@ nav {
     height: 48px;
 }
 
+
+.logo1 {
+    font-family: 'Thasadith', sans-serif;
+    color: #AB8D4F;
+}
 .container-fluid{
     background-color: brown;
+}
+.titulo{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2rem;
+    color: brown;
+    background-color: #f8cbd9;
+    border-radius: 3px;
+}
+
+.parrafo{
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
+    background-color: #f8cbd9;
+    color: #AB8D4F;
+    border-radius: 3px;
 }
 
 h2{
@@ -52,13 +74,13 @@ h2{
   .logo1{
     text-align: center;
     margin-block: 3rem;
-    
+    font-family: 'Thasadith', sans-serif;
   }
   .redes1{
     float: right;
     margin-right: 20px;
   }
-
+  
 /* formulario*/
 
 .title {
@@ -73,7 +95,7 @@ h2{
     background-color: #FCE3EB;
     opacity: none;
     color: #AB8D4F;
-    font-family: 'Thasadith', sans-serif;
+    font-family: 'Baskervville', serif;
 }
 
 /*css footer*/
@@ -91,6 +113,7 @@ footer #footer {
     align-items: center;
     margin-top: 30px;
     margin-block-end: -305px;
+    font-family: 'Baskervville', serif;
 }
 
 .container-fluid2 {
@@ -110,6 +133,29 @@ footer #footer {
     }
     .links {
         transform: translateY(0);
+    }
+    footer #footer {
+        background-image: url(../imagen/footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-block-end: -305px;
+        font-family: 'Baskervville', serif;
+    }
+    
+    .container-fluid2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        margin-right: -10rem;
+    }
+    
+    .logo {
+        width: 140px;
+        margin-left: 5px;
     }
 }
 

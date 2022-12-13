@@ -17,6 +17,7 @@ footer #footer {
     align-items: center;
     margin-top: 30px;
     margin-block-end: -305px;
+    font-family: 'Baskervville', serif;
 }
 
 .container-fluid2 {
@@ -33,7 +34,7 @@ footer #footer {
 .logo-anuncio {
     width: 300px;
     margin-left: 20px;
-    opacity: 25%;
+    opacity: 95%;
 }
 
 .anuncio {
@@ -74,13 +75,15 @@ footer #footer {
 .p1, .p2, .p3 {
     font-family: 'Baskervville', serif;
     font-size: 16px;
+    color: #AB8D4F;
 }
 
 .title1, .title2  {
     font-family: 'Thasadith', sans-serif; 
     font-size: 20px;
-    color: bisque;
+    color: brown;
 }
+
 
 @media screen and (min-width: 768px) {
     .menu-btn{
@@ -138,7 +141,8 @@ h2{
   .logo1{
     text-align: center;
     margin-block: 3rem;
-    
+    font-family: 'Thasadith', sans-serif;
+    color: #AB8D4F;
   }
   .redes1{
     float: right;
