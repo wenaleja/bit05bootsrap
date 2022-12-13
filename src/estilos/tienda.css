@@ -28,6 +28,7 @@
 nav{
     text-align: center;
     margin-top: 180px;
+    font-family: 'Thasadith', sans-serif;
 }
 
 nav {
@@ -52,8 +53,7 @@ h2{
   .logo1{
     text-align: center;
     margin-block: 3rem;
-    
-  }
+   }
   .redes1{
     float: right;
     margin-right: 20px;
@@ -158,3 +158,5 @@ footer #footer {
         width: 500px;
     }
     }
+
+    

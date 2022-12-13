@@ -52,7 +52,6 @@ h2{
   .logo1{
     text-align: center;
     margin-block: 3rem;
-    
   }
   .redes1{
     float: right;
@@ -118,4 +117,7 @@ footer #footer {
     .title {
         margin-left: 16rem;
     }
+}
+h3{
+    font-family: 'Baskervville', serif;
 }
